@@ -1,0 +1,29 @@
+{
+	"name": "vim-docs",
+	"version": "1.0.0",
+	"description": "A Google Docs Vim keybindings plugin",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"tsc": "tsc",
+		"watch": "tsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mathletedev/vim-docs.git"
+	},
+	"author": {
+		"name": "mathletedev",
+		"email": "mathletedev@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mathletedev/vim-docs/issues"
+	},
+	"homepage": "https://github.com/mathletedev/vim-docs#readme",
+	"devDependencies": {
+		"@types/chrome": "^0.0.145",
+		"nodemon": "^2.0.9",
+		"typescript": "^4.3.5"
+	}
+}

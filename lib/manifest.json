@@ -1,0 +1,13 @@
+{
+	"name": "Vim Docs",
+	"description": "A Google Docs Vim keybindings plugin",
+	"manifest_version": 2,
+	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"matches": ["https://docs.google.com/document/d/*/edit"],
+			"js": ["index.js"],
+			"css": ["styles.css"]
+		}
+	]
+}
